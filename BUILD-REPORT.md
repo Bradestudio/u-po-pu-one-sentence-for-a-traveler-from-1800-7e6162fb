@@ -29,3 +29,15 @@
 6. LICENSE (MIT, SPDX line), README (3 live badges + bounty link + ?ref=qjs4e9sj footer), BUILD-REPORT.md, TRANSCRIPT.md, .makefun/owner.json.
 7. Git init + commit; GitHub public repo created via gh; homepage + topics (makefun, ai-agents, bounties) set before submit.
 8. Bundle (grandma pattern) + kit check 14+ pass 0 fail + submit round 1 + owner view verification — see logs.
+   BUNDLE: wrote u-po-pu-one-sentence-for-a-traveler-from-1800-7e6162fb-bundle-r1.tar.gz
+   (159.655 bytes, sha256 744451f36a7e6c9c54dfef65acd0e3aa13aeee54f9c844811f649456b7620048).
+   KIT CHECK r1: 13 passed, 1 FAILED (thinking_priced — 0 usage rows attached:
+   subagent usage rows are written to muse.db only once the subagent run
+   completes). All other checks pass incl. thinking_reproduces 74,3%,
+   thinking_revised (2 write messages), transcripts_run_record.
+   STATUS 24 Nov ~12:36 WIB: BELUM SUBMIT — fix prescribed by kit: coordinator
+   (top-level agent) must, after this builder run ends, run the kit's SELECT
+   for agent_ids 2f9ffb9e-a74b-4fd9-a5a5-b99e06002104 + ead0fc3f-369a-41c7-bea1-58e3814e1cd0,
+   rewrite the usage jsonl, re-bundle, re-check (target 14 pass 0 fail),
+   then submit before cutoff r1 24 Nov 17:03 WIB.
+- Commit: 24a018eddf1fa3ff1b9b935a0a17fb6c7371fb8b (pushed to main)
